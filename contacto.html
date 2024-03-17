@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<style>
+    .nav li{
+        display: inline-block;
+        padding-right: 30px;
+    }
+    label, input{
+        display: block;
+    }
+    label, input, textarea{
+        width: 30%;
+    }
+    fieldset{
+        width: 29%;
+    }
+</style>
+<body>
+    <nav style="text-align: center;">
+        <ol class="nav">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="acercaDe.html">Acerca De</a></li>
+          <li>Contactenos</li>
+        </ol>
+    </nav>
+    <h1>Formulario de Contacto</h1>
+    <h3>Gracias por las sugerencias</h3>
+    <form>
+        <label>Nombre y Apellido</label>
+        <input type="text">
+
+        <label>Correo Electronico</label>
+        <input type="email" placeholder="email@dominio.com"> 
+
+        <label>Telefono</label>
+        <input type="tel" placeholder="(XXX) XXXX XXXX">
+
+        <label>Mensaje</label>
+        <textarea cols="21" rows="10"></textarea>
+
+        <fieldset>
+            <legend>¿Por donde desea ser contactado?</legend>
+            <select>
+                <option>Whatsapp</option>
+                <option>Correo Electronico</option>
+                <option>Llamada</option>
+            </select>
+        </fieldset>
+        <input type="submit" value="Enviar Mensaje">
+    </form>
+    <footer>
+        <p>Si tienes alguna sugerencia puedes realizarla en la pagina de <a href="contacto.html">Contactenos</a></p>
+    </footer>
+</body>
+</html>
